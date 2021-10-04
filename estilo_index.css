@@ -1,0 +1,438 @@
+body {
+	font-family: 'Rajdhani', sans-serif;
+	background-color: black; 
+    display: block;}
+
+.supercontener{
+	width: 100%;
+}
+
+
+
+
+
+/*-----------*/
+/*---Barra---*/
+/*-----------*/
+.barra{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.barra_home{
+	position: fixed;
+	height: 50px;
+	width: 50%;
+	border: #BBC2CC;
+	border-radius: 0 0 200px 200px;
+	background-color: white;
+	display: inline-block;
+}
+.barra_home_index_div{
+	display: flex;
+	justify-content: center;
+}
+.barra_home_index {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.barra_home_index a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.language {
+  float: left;
+  overflow: hidden;
+}
+
+.language .language_drop {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.barra_home_index a:hover, .language:hover .language_drop {
+  background-color: #BBC2CC;
+}
+
+.language_contener {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 96px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.language_contener a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.language_contener a:hover {
+  background-color: #BBC2CC;
+}
+
+.language:hover .language_contener {
+  display: block;
+}
+
+
+
+
+
+/*-----------*/
+/*---Intro---*/
+/*-----------*/
+.intro{
+	display: flex;
+	height: 700px;
+	justify-content: center;
+    align-items: center;
+}
+.introh1h2{
+	display: block;
+}
+.introh1{
+	font-size: 65px;
+	text-align: center;	
+	color: white;
+}
+.intro_h1_b{
+	color: #BBC2CC;
+}
+.introh2{
+	text-align: center;
+	font-size: 40px;
+	padding: 5px;
+	color: white;
+}
+.intro_h2_b{
+	color: #BBC2CC;
+}
+
+
+
+
+
+/*-----------*/
+/* Biography */
+/*-----------*/
+.bio {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+.bio_center{
+	height: 600px;
+	display:flex;
+    align-items: center;
+}
+.bio_div_h1{
+	height: 200px;
+	margin: 4%;
+	margin-right: 15px;
+}
+.biography{
+	font-size: 25px;
+	color: #BBC2CC;
+	transform: rotate(-90deg);
+}
+.bio_div_p{
+	height: 300px;
+	width: 100%;
+}
+.biop{
+	margin: 5px;
+	padding: 5px;
+	color: white;
+	font-size: 40px;
+}
+
+
+
+
+
+/*-----------*/
+/*-Portfolio-*/
+/*-----------*/
+.portfolio{
+	display: flex;
+	justify-content: center;
+}
+.portfolio_center{
+	display: block;
+}
+.portfoliodivh1{
+	margin: 5%;
+	margin-bottom: 3px;
+}
+.portfolioh1{
+	font-size: 65px;
+	color: #BBC2CC;
+}
+.portfolio_1{
+	display: inline-flex;
+}
+.SA{
+	width: 500px;
+	height: 500px;
+	position: relative;	
+}
+.SAimg{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.SAmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+.SA:hover .SAimg{
+	opacity: 0.2;
+}
+.SA:hover .SAmiddle{
+	opacity: 1;
+}
+.SAa{
+	background-color: black;
+	border: 3px solid #BBC2CC;
+	color: white;
+	font-size: 25px;
+	padding: 4px 8px;
+	border-radius: 8px;
+}
+.FD{
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+.FDimg{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.FDmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+.FD:hover .FDimg{
+	opacity: 0.2;
+}
+.FD:hover .FDmiddle{
+	opacity: 1;
+}
+.FDa{
+	background-color: black;
+	border: 3px solid #BBC2CC;
+	color: white;
+	font-size: 25px;
+	padding: 4px 8px;
+	border-radius: 8px;
+}
+.AT{
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+.ATimg{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.ATmiddle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+.AT:hover .ATimg{
+	opacity: 0.2;
+}
+.AT:hover .ATmiddle{
+	opacity: 1;
+}
+.ATa{
+	background-color: black;
+	border: 3px solid #BBC2CC;
+	color: white;
+	border-radius: 8px;
+	font-size: 25px;
+	padding: 4px 8px;
+}
+
+
+
+
+
+/*-----------*/
+/*--Footer---*/
+/*-----------*/
+.footer{
+	height: 400px;
+	display: flex;
+	background-color: #BBC2CC;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+}
+.end{
+	display: block;
+}
+.follow_me{
+	text-align: center;
+	font-size: 30px;
+}
+.follow_click{
+	text-align: center;
+	font-size: 20px;
+}
+.follow_mail{
+	text-align: center;
+	font-size: 20px;
+}
+.contact_index{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	list-style: none;
+}
+.follow_twitter{
+	margin: 5px;
+	border-radius: 15px;
+}
+.follow_insta{
+	margin: 5px;
+	border-radius: 15px;
+}
+.follow_face{
+	margin: 5px;
+	border-radius: 15px;
+}
+.follow_git{
+	margin: 5px;
+	border-radius: 15px;
+}
+.follow_link{
+	margin: 5px;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+/*-----------*/
+/*--Screen---*/
+/*-----------*/
+@media screen and (max-width: 900px){
+	.barra{
+		font-size: 10px;
+	}
+	.barra_home{
+		width: 100%;
+	}
+	.barra_home_index a {
+  padding:: 2px 4px;  
+  font-size: 10px;
+  }
+  .language_contener {
+  min-width: 70px;
+  }
+  .language_contener a {
+  padding: 2px 4px;
+  font-size: 10px;
+  }
+  .language .language_drop {
+  padding:: 2px 4px;
+  font-size: 10px;
+  }
+	.introh1{
+		font-size: 30px;
+	}
+	.introh2{
+		font-size: 15px;
+	}
+	.biography{
+		font-size: 15px;
+	}
+	.biop{
+		font-size: 20px;
+	}
+   .portfolio_1{
+	display: block;
+  }
+  .SA{
+  height: 400px;
+  width: 400px;
+  }
+  .SAa{
+  font-size: 15px;
+  padding: 1px 2px;
+  }
+  .FD{
+  height: 400px;
+  width: 400px;
+  }
+  .FDa{
+  font-size: 15px;
+  padding: 1px 2px;
+    }
+  .AT{
+  height: 400px;
+  width: 400px;
+  }
+  .ATa{
+  font-size: 15px;
+  padding: 1px 2px;
+  }
+  .follow_me{
+   font-size: 20px;
+  }
+  .follow_click{
+	font-size: 10px; 
+	}
+	.follow_mail{
+	text-align: center;
+	font-size: 10px;
+	}
+}
