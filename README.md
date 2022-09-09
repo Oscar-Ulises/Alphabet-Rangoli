@@ -6,11 +6,11 @@ You are given an integer, . Your task is to print an alphabet rangoli of size . 
 Different sizes of alphabet rangoli are shown below:
 #size 3
 
-----c----
---c-b-c--
-c-b-a-b-c
---c-b-c--
-----c----
+----c----<br>
+--c-b-c--<br>
+c-b-a-b-c<br>
+--c-b-c--<br>
+----c----<br>
 
 #size 5
 
