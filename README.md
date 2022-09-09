@@ -14,37 +14,37 @@ c-b-a-b-c<br>
 
 #size 5
 
---------e--------
-------e-d-e------
-----e-d-c-d-e----
---e-d-c-b-c-d-e--
-e-d-c-b-a-b-c-d-e
---e-d-c-b-c-d-e--
-----e-d-c-d-e----
-------e-d-e------
---------e--------
+--------e--------<br>
+------e-d-e------<br>
+----e-d-c-d-e----<br>
+--e-d-c-b-c-d-e--<br>
+e-d-c-b-a-b-c-d-e<br>
+--e-d-c-b-c-d-e--<br>
+----e-d-c-d-e----<br>
+------e-d-e------<br>
+--------e--------<br>
 
 #size 10
 
-------------------j------------------
-----------------j-i-j----------------
---------------j-i-h-i-j--------------
-------------j-i-h-g-h-i-j------------
-----------j-i-h-g-f-g-h-i-j----------
---------j-i-h-g-f-e-f-g-h-i-j--------
-------j-i-h-g-f-e-d-e-f-g-h-i-j------
-----j-i-h-g-f-e-d-c-d-e-f-g-h-i-j----
---j-i-h-g-f-e-d-c-b-c-d-e-f-g-h-i-j--
-j-i-h-g-f-e-d-c-b-a-b-c-d-e-f-g-h-i-j
---j-i-h-g-f-e-d-c-b-c-d-e-f-g-h-i-j--
-----j-i-h-g-f-e-d-c-d-e-f-g-h-i-j----
-------j-i-h-g-f-e-d-e-f-g-h-i-j------
---------j-i-h-g-f-e-f-g-h-i-j--------
-----------j-i-h-g-f-g-h-i-j----------
-------------j-i-h-g-h-i-j------------
---------------j-i-h-i-j--------------
-----------------j-i-j----------------
-------------------j------------------
+------------------j------------------<br>
+----------------j-i-j----------------<br>
+--------------j-i-h-i-j--------------<br>
+------------j-i-h-g-h-i-j------------<br>
+----------j-i-h-g-f-g-h-i-j----------<br>
+--------j-i-h-g-f-e-f-g-h-i-j--------<br>
+------j-i-h-g-f-e-d-e-f-g-h-i-j------<br>
+----j-i-h-g-f-e-d-c-d-e-f-g-h-i-j----<br>
+--j-i-h-g-f-e-d-c-b-c-d-e-f-g-h-i-j--<br>
+j-i-h-g-f-e-d-c-b-a-b-c-d-e-f-g-h-i-j<br>
+--j-i-h-g-f-e-d-c-b-c-d-e-f-g-h-i-j--<br>
+----j-i-h-g-f-e-d-c-d-e-f-g-h-i-j----<br>
+------j-i-h-g-f-e-d-e-f-g-h-i-j------<br>
+--------j-i-h-g-f-e-f-g-h-i-j--------<br>
+----------j-i-h-g-f-g-h-i-j----------<br>
+------------j-i-h-g-h-i-j------------<br>
+--------------j-i-h-i-j--------------<br>
+----------------j-i-j----------------<br>
+------------------j------------------<br>
 
 The center of the rangoli has the first alphabet letter a, and the boundary has the  alphabet letter (in alphabetical order).
 
